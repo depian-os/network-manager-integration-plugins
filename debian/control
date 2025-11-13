@@ -1,0 +1,17 @@
+Source: network-manager-integration-plugins
+Section: metapackages
+Priority: extra
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Build-Depends: debhelper (>=8.0.0)
+Standards-Version: 3.9.3
+Homepage: http://www.deepin.org
+
+Package: network-manager-integration-plugins
+Architecture: all
+Depends: ${misc:Depends}, sysv-rc,
+ network-manager-openvpn, network-manager-openvpn-gnome, network-manager-l2tp,
+ network-manager-l2tp-gnome, network-manager-pptp, network-manager-pptp-gnome,
+ network-manager-vpnc, network-manager-vpnc-gnome, network-manager-openconnect,
+ network-manager-openconnect-gnome, network-manager-strongswan, network-manager-sstp
+Description: network-manager framework with plugin config.
+ This is a network manager plugin config for deepin control center.
