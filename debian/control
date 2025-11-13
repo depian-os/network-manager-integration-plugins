@@ -8,7 +8,7 @@ Homepage: http://www.deepin.org
 
 Package: network-manager-integration-plugins
 Architecture: all
-Depends: ${misc:Depends}, sysv-rc,
+Depends: ${misc:Depends},
  network-manager-openvpn, network-manager-openvpn-gnome, network-manager-l2tp,
  network-manager-l2tp-gnome, network-manager-pptp, network-manager-pptp-gnome,
  network-manager-vpnc, network-manager-vpnc-gnome, network-manager-openconnect,
